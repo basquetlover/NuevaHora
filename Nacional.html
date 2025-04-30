@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Nueva Hora</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="https://i.ibb.co/S7zVgtM/logo-Nueva-Hora-removebg-preview.png">
+</head>
+
+<body>
+  <script>
+    // En este ejemplo, utilizamos JavaScript para ocultar el círculo de carga después de 3 segundos.
+// Para ello, seleccionamos el contenedor del círculo y lo ocultamos con la propiedad "display: none;"
+// después de un intervalo de tiempo de 3000 milisegundos (3 segundos).
+
+const circleContainer = document.querySelector(".circle-container");
+
+setTimeout(() => {
+  circleContainer.style.display = "none";
+}, 3000);
+  </script>
+ <header>
+   <div class="nombre">
+     <a href="index.html"><img src="https://i.ibb.co/sst4Tkq/logo-Nueva-Hora-2-Photo-Room-png-Photo-Room.png" height="120" width="372">
+   </div>
+      <nav class="navegacion">
+        <div class="menu">
+     <li><a href="Noticias.html"> Noticias</a></li> 
+     <li><a href="Deportes.html"> Deportes</a></li>
+     <li><a href="Musica.html"> Música</a></li>
+     <li><a href="Nacional.html"> Nacional</a></li>
+     <li><a href="Global.html"> Global</a></li>
+        </div>
+      </nav>
+    </header>
+<main>
+  <div class="circle-container">
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+</div>
+</main>
+  
+</body>
+
+</html>
